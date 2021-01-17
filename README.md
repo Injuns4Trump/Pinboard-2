@@ -30,12 +30,12 @@ Add to your server: https://discordapp.com/oauth2/authorize?client_id=5363260639
 - Open your Terminal/Command Prompt in the Pinboard-2 folder and type "node index.js" to launch it.
 // "node ." also works and is just a shortcut built into nodejs to save time.
 
-- Go back to the General Information tab in the Discord Development Portal and make an invite link by copying your bot's Client ID tab and pasting it in the "client_id=" section of a link like this: https://discord.com/oauth2/authorize?client_id=xxxxxxxxxxxxxxxxxxxxx&scope=bot&permissions=536897552
+- Go back to the General Information tab in the Discord Development Portal and make an invite link by copying your bot's Client ID tab and pasting it in the "client_id=" section of a link like this: https://discord.com/oauth2/authorize?client_id=xxxxxxxxxxxxxxxxxxxxx&scope=bot&permissions=604007441
 
-- Pinboard 2 itself requires the "Manage Messages", "Manage Webhooks", "Manage Channels", "Send Messages", and "Send Embedded Links" permissions to function properly.
-// You can add "&permissions=536897552" to your invite link to automatically grant those permissions upon joining. If you do not include it in your invite link then you can also manually grant Pinboard 2 those permissions from your server settings in Discord.
+- Pinboard 2 itself requires the "Manage Messages", "Manage Webhooks", "Manage Channels", "Read Messages" "Send Messages", and "Send Embedded Links" permissions to function properly.
+// You can add "&permissions=604007441" to your invite link to automatically grant those permissions upon joining. If you do not include it in your invite link then you can also manually grant Pinboard 2 those permissions from your server settings in Discord.
 
-- Alternatively, instead of granting "Send Messages" and "Send Embedded Links" as server-wide permissions you can grant them as channel permissions in the newly created #pinboard channel.
+- Alternatively, instead of granting "Read Messages", "Send Messages", and "Send Embedded Links" as server-wide permissions you can grant them as channel permissions in the newly created #pinboard channel.
 // If you choose this option you can also use "&permissions=536879120" on your invite link.
 
 
