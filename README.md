@@ -22,7 +22,7 @@ Add to your server: https://discordapp.com/oauth2/authorize?client_id=5363260639
 - Install the nodejs dependencies listed in the "package.json" file by opening your Terminal/Command Prompt in the Pinboard-2 folder and typing "npm install".
 // This should automatically install all of the required depencies in a single command.
 
-- Then go to the Discord Development Portal (https://discord.com/developers/applications) and create a bot and enable the "PRESENCE INTENT" and "SERVER MEMBERS INTENT" settings in the "Bot" tab, set up the name and profile picture how you want, then copy the bot token.
+- Then go to the [Discord Development Portal](https://discord.com/developers/applications) (https://discord.com/developers/applications) and create a bot and enable the "PRESENCE INTENT" and "SERVER MEMBERS INTENT" settings in the "Bot" tab, set up the name and profile picture how you want, then copy the bot token.
 
 - Paste your bot token into the "config.json" file over the part that says "discord_token".
 // The bot token needs to be inside of the quotes so keep the quotes.
