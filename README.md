@@ -48,6 +48,9 @@ Add to your server: https://discordapp.com/oauth2/authorize?client_id=5363260639
 - Pinboard 2 will copy text and images files to the #pinboard channel but only a link to a video is pinned instead of another copy of the video file.
 // I have found no fix for this yet.
 
+- Pinboard 2 doesn't pin messages from other bots or users who have left your Discord server.
+// I have found no fix for this yet. An error in your Terminal/Command Prompt may be thrown when this happens but it's safe and doesn't crash Pinboard 2.
+
 - Pinboard 2 won't pin messages from certain users and throws up the Terminal/Command Prompt error:
 
 "TypeError: Cannot read property 'highestRole' of null
