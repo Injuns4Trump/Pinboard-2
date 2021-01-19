@@ -19,8 +19,8 @@ Add to your server: https://discordapp.com/oauth2/authorize?client_id=5363260639
 
 - Install Nodejs on your platform of choice. It runs on just about every modern operating system out there, even on Android phones via Termux.
 
-- Install the Nodejs dependencies listed in the "package.json" file by opening your Terminal/Command Prompt in the Pinboard-2 folder and typing "npm install".
-// This should automatically install all of the required depencies in a single command.
+- Install the Nodejs dependency packages listed in the "package.json" file by opening your Terminal/Command Prompt in the Pinboard-2 folder and typing "npm install".
+// This should automatically install all of the required dependencies in a single command. You can also install each dependency individually by typing "npm install (package name)
 
 - Then go to the [Discord Development Portal](https://discord.com/developers/applications) (https://discord.com/developers/applications) and create a bot and enable the "PRESENCE INTENT" and "SERVER MEMBERS INTENT" settings in the "Bot" tab, set up the name and profile picture how you want, then copy the bot token.
 
