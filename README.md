@@ -17,7 +17,7 @@ Add to your server: https://discordapp.com/oauth2/authorize?client_id=5363260639
 
 # To get Pinboard 2 running:
 
-- Install nodejs on your platform of choice. It runs on just about every modern operating system out there, even on Android phones via Termux.
+- Install Nodejs on your platform of choice. It runs on just about every modern operating system out there, even on Android phones via Termux.
 
 - Install the nodejs dependencies listed in the "package.json" file by opening your Terminal/Command Prompt in the Pinboard-2 folder and typing "npm install".
 // This should automatically install all of the required depencies in a single command.
