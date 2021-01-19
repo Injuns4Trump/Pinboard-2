@@ -40,7 +40,7 @@ Add to your server: https://discordapp.com/oauth2/authorize?client_id=5363260639
 
 
 
-# Common problems and fixes:
+# Common Problems and Solutions:
 
 - Discord API restrictions require Pinboard 2 to take a 15 second cooloff period between pins. Messages that are pinned before the 15 seconds are up are ignored and pinned to the regular "Pinned Messages" section of the channel.
 // To fix the improperly pinned message you must shut down Pinboard 2 in your Terminal/Command Prompt, unpin the message from the "Pinned Messages" section in your Discord channel, then restart Pinboard 2 in your Terminal/Command Prompt, then pin the message again. If done properly, this will send the message to the proper #pinboard channel.
